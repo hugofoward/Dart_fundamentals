@@ -9,7 +9,7 @@ main() {
 
   /* 
   You can use simple quotation marks or double quotation marks
-   Você pode usar aspas simples ou aspas duplas 
+   Você pode utilizar aspas simples ou aspas duplas 
   */
   print("Hello Dart with double quotation");
 
