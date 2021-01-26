@@ -1,4 +1,7 @@
 main() {
+  // the for or for in is used when we have the amount of interaction we want
+  /// o for ou for in é utilizado quando temos a quantidade que desejamos de interação
+
   Map<String, int> notes = {
     'John': 6,
     'Peter': 7,
@@ -6,7 +9,7 @@ main() {
     'Ana': 9,
     'Hugo': 10
   };
-
+  //For in equal for each in other languages.
   for (String name in notes.keys) {
     print('Student name is $name and note is ${notes[name]}');
   }

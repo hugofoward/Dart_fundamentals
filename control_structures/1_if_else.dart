@@ -1,4 +1,5 @@
-// O import abaixo será para utilizar números aleatórios.
+//The import below will be for using random numbers.
+/// O import abaixo será para utilizar números aleatórios.
 import 'dart:math';
 
 main() {

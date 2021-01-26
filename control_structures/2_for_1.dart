@@ -1,4 +1,7 @@
 main() {
+  // the for or for in is used when we have the amount of interaction we want
+  /// o for ou for in é utilizado quando temos a quantidade que desejamos de interação
+
   for (int a = 0; a < 10; a++) {
     print('a= $a');
   }
