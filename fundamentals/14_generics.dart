@@ -10,6 +10,8 @@ main() {
   fruits.add('melon');
   print(fruits);
 
+  //  Map consists of key: value that is defined by us
+  /// Map é composto por chave:valor que é definido por nós
   Map<String, double> salary = {
     'manager': 19345.78,
     'salesman': 16345.80,
