@@ -1,6 +1,8 @@
 main() {
-  // Assignment operators (binary / infix)
-  /// Operadores Atribuição (binário/infix)
+/* 
+  Assignment operators (binary / infix)
+  Operadores Atribuição (binário/infix)
+*/
   double a = 2;
   a = a + 3;
   a += 3;
@@ -10,8 +12,10 @@ main() {
   a %= 2;
 
   print(a);
-  //Relational Operators (binary / infix) -> The result is always BOOL
-  /// Operadores Relacionais (binário/infix) -> O resultado sempre é BOOL
+/*
+  Relational Operators (binary / infix) -> The result is always BOOL
+  Operadores Relacionais (binário/infix) -> O resultado sempre é BOOL
+*/
   print(3 > 2);
   print(3 >= 3);
   print(3 < 4);

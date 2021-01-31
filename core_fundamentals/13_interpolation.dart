@@ -10,8 +10,10 @@ main() {
       note.toString() +
       "!";
 
-  // You can use $ for interpolation
-  /// Você pode usar $ para a interpolação
+/*
+  Use $ for interpolation
+  Utilize o $ para a interpolação
+*/
   String phrase2 = "$name it's $status because he took a note $note !";
 
   print(phrase1);
