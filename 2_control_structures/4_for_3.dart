@@ -1,7 +1,7 @@
 main() {
-/* 
-  The for or "for in" is used when we have the amount of interaction we want
-  O for ou "for in" é utilizado quando temos a quantidade que desejamos de interação
+/*
+  The for and "for in" are used when we have the amount of iteration we want
+  O for e o "for in" são utilizados quando temos a quantidade que desejamos de iteração
 */
 
   Map<String, int> notes = {

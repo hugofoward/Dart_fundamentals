@@ -1,7 +1,7 @@
 main() {
 /*
-  List of objects, the values of this list are heterogeneous
-  Lista de objetos, os valores desta lista são heterogêneos
+  List of objects, the values are heterogeneous
+  Lista de objetos, os valores são heterogêneos
 */
   var list_1 = ['banana', true, 123, 4.56];
   print(list_1);
@@ -15,8 +15,8 @@ main() {
   print(fruits);
 
 /*
-  Map consists of key: value that is defined by us
-  Map é composto por chave:valor que é definido por nós
+  Map consists of key:value 
+  Map é composto por chave:valor 
 */
   Map<String, double> salary = {
     'manager': 19345.78,

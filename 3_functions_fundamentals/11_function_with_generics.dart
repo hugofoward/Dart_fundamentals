@@ -4,7 +4,10 @@ Object secondElement(
   return list != null ? list[1] : null;
 }
 
-// Essa função implementa um tipo genérico, e assumirá os tipos enviados como parâmetros e para retorno.
+/* 
+  This function implements a generic type, and will assume the types sent as parameters and return.
+  Essa função implementa um tipo genérico, e assumirá os tipos enviados como parâmetros e retorno.
+*/
 E secondElementv2<E>(List<E> list) {
   return list != null ? list[1] : null;
 }

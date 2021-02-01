@@ -2,7 +2,7 @@
 main() {
 /*
   List[value 1, value 2] -------------------------------------------------------
-  The list is an indexed structure, and the elements are accessed from an entire index
+  The list is an indexed structure, and the elements are accessed from an index
   the index starts from 0 (zero), accept duplicate values
 
   A lista é uma estrutura indexada, e os elementos são acessados a partir de um índice inteiro
@@ -43,8 +43,8 @@ main() {
   the key must be unique, in other case will be override with last value
   -see what happens with Jonh
 
-  As chaves servem para definir um bloco de código, assim como para definir a estrutura de um map
-  a chave deve ser única, em outro caso será substituída pelo último
+  As chaves servem para definir um bloco de código, para definir também a estrutura de um map
+  a chave correspondente ao índice na lista deve ser única, em outro caso será substituída pelo último
   -veja o que acontece com Jonh
 */
   print('Examples of Map');
@@ -68,7 +68,7 @@ main() {
   does not allow duplicate values
 
   O Conjunto não é indexado, então não é possível acessar a partir do índice
-  não permite que os valores repetidos
+  não permite valores repetidos
 */
   print('Examples of Set');
   var teams = {'Vasco', 'Flamengo', 'Fortaleza', 'São Paulo'};

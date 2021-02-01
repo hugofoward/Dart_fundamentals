@@ -3,8 +3,8 @@ main() {
   String s1 = "Hugo Brito";
   print(s1);
 /*
-  A substring retrieves exactly the desired number of characters from index 0 to 6.
-  A substring recupera exatamente a quantidade de caracteres desejada índice 0 ao 6.
+  A substring retrieves exactly the desired number of characters, index 0 to 6.
+  A substring recupera exatamente a quantidade de caracteres desejada, índice 0 ao 6.
 */
   print("Exemplo var s2");
   String s2 = s1.substring(0, 6);

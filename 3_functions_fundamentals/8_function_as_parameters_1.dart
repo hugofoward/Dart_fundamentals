@@ -1,6 +1,9 @@
 import 'dart:math';
 
-// Função que recebe como parâmetro outra função
+/*
+  Function that takes another function as a parameter
+  Função que recebe como parâmetro outra função
+*/
 void execute(Function fnPar, Function fnImpar) {
   Random().nextInt(10) % 2 == 0 ? fnPar() : fnImpar();
 }

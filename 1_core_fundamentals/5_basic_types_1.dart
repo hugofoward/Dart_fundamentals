@@ -20,8 +20,8 @@ main() {
   double n2_absolut = n2.abs();
   print(n2_absolut);
 /*
-  The quoted string value has the format of a double, thus making conversion possible using double.parse
-  O valor string entre aspas possui o formato de um double, tornando possível a conversão utilzando double.parse
+  The quoted string value has the format of a double, thus making conversion possible using double.parse without loss of information
+  O valor string entre aspas possui o formato de um double, tornando possível a conversão utilzando double.parse sem perca de informações
 */
   double n3 = double.parse("12.765");
 /*
@@ -30,8 +30,8 @@ main() {
 */
   print(n1.abs() + n2 + n3);
 /*
-  Int and double types inherit from type num, making operations between them possible.
-  Int e double herdam do tipo num, tornando possivel operações entre eles.
+  Int and double types inherit from same type num, making operations between them possible.
+  Int e double herdam do mesmo tipo num, tornando possivel operações entre eles.
 */
   num n4 = 6;
   n4 = 6.7;
@@ -72,10 +72,10 @@ main() {
 /*
   Dynamic --------------------------------------------------------------------------------
   The type of the variable is dynamically defined according to the assigned value
-  In var type, the type is defined based only on first value assigned
+  In var type, the type is defined based on first value assigned
 
   O tipo da variável é definida de forma dinâmica conforme o valor atribuído
-  No tipo var, o tipo é definido com base apenas no primeiro valor atribuído
+  No tipo var, o tipo é definido com base no primeiro valor atribuído
 */
   dynamic x = "Cool Text";
   print(x);

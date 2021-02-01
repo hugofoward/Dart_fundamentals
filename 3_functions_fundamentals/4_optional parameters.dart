@@ -8,7 +8,7 @@ main() {
 
 /*
   When using the brackets its defined that the parameter is optional, but it is interesting to define a default value together, like 10 in the example below.
-  Quando utilizamos os colchetes é definido que o parâmetro é opcional, mas é interessante definir em conjunto um valor padrão, como 10 no exemplo abaixo.
+  Quando utilizamos os colchetes é definido que o parâmetro é opcional, mas é interessante em conjunto definir um valor padrão, como 10 no exemplo abaixo.
 */
 int randomNumber([int max = 10]) {
   return Random().nextInt(max);

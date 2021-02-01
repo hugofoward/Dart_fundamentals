@@ -1,6 +1,6 @@
 /*
-  Gateway in a Dart program is the Main function
-  Porta de entrada em um programa Dart é a função Main
+  The Gateway in a Dart program is the Main function
+  A Porta de entrada em um programa Dart é a função Main
 */
 main() {
   sumWithPrint(2, 3);

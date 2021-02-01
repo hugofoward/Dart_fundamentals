@@ -1,6 +1,6 @@
 /* 
   The order of the functions does not matter, the main does not have to be the first function, by default the main is at the top just for good practice
-  A ordem das funções não importa, o main não precisa ser a primeira função, por padrão o main fica ao topo apenas por boas práticas
+  A ordem das funções não importam, o main não precisa ser a primeira função, por padrão o main fica ao topo apenas por boas práticas
 */
 int sumFn(int a, int b) {
   return a + b;
