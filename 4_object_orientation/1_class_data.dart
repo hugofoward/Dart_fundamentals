@@ -16,7 +16,6 @@ class Data {
   int year;
 
 /* 
-
   The constructor is automatically executed when a new "instance / object" is created.
   e.g. Date () {}
   The default parameterless constructor will now be available when creating a new class, but when specifying a parameterized constructor,
@@ -37,13 +36,15 @@ class Data {
   }
 
   The constructor below will receive the parameters specified in the object's instance and will assign them to the class's internal parameters.
-  O construtor abaixo receberá os parâmetros especificados na instância do objeto e irá atribuí-los aos parâmetros interno da classe.
-  
 
+  O construtor abaixo receberá os parâmetros especificados na instância do objeto e irá atribuí-los aos parâmetros interno da classe.
 */
+
   Data([this.day = 1, this.month = 1, this.year = 1970]) {}
+
 /* 
   Once you have the parameters in a class, there is no need to send as a parameter to the method, as it already accesses them internally.
+
   Uma vez que você possui os parâmetros em uma classe, não é preciso enviar como parâmetro para o método, pois ele já os acessa internamente.
 */
   getDate() {
