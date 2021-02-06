@@ -42,6 +42,9 @@ class Data {
 
   Data([this.day = 1, this.month = 1, this.year = 1970]) {}
 
+// Construtor nomeado
+  Data.com({this.day = 1, this.month = 1, this.year = 1977});
+
 /* 
   Once you have the parameters in a class, there is no need to send as a parameter to the method, as it already accesses them internally.
 
@@ -65,4 +68,8 @@ main() {
   date1.getDate();
   var date2 = new Data(31, 12, 2020);
   date2.getDate();
+
+// chamando um construtor nomeado
+  var dataFinal = Data.com(year: 2022);
+  dataFinal.getDate();
 }
